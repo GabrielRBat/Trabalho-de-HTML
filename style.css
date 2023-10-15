@@ -13,13 +13,12 @@ main{
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 150px auto 100px;
-    row-gap: 50px;
+    grid-template-rows: 159px auto 100px;
+    row-gap: 30px;
     grid-template-areas: 
     "main main main"
     "main main main"
     "footer footer footer";
-    border: solid black 1px;
     text-align: center;
 }
 header{
@@ -48,7 +47,7 @@ form label{
 ul{
     margin: 0px;
     background-image: linear-gradient(to top, #0f4b83, #32a4e6);
-    box-shadow: 3px 3px 15px black;
+    box-shadow: 3px 2px 2px black;
 }
 ul .login{
     position: absolute;
@@ -71,26 +70,45 @@ footer{
     grid-area: footer;
 }
 .item1,.item2,.item3,.item4,.item5,.item6{
-    display: inline-block;
-    width: calc(33.33% - 43px);
-    padding: 50px 20px;
+   display: flex;
+    
     min-width: 300px;
     text-align: center;
     margin: 5px 0px;
     border-radius: 15px;
     background-color: #32a4e6;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
+    justify-content: right;
+    height: 250px;
 }
 .item1{
-    background-image: url(https://www.rbsdirect.com.br/imagesrc/24699961.jpg?w=700);
+    background-image: url(https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
 
 }
 .subitem{
-    display: inside;
-    background-color: rgba(50, 164, 230, 0.5);
-    position: relative;
-    top: 35px;
-    border-radius: 15px;
+    display: flex;
+    background-color: #666;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    justify-content: left;
+    padding-left: 25px;
     
+    
+}
+.subitem2{
+    display: flex;
+    background-color: #666;
+    text-align: center;
+    justify-content: right;
+    width: 25%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-right: 25px;
 }
 
