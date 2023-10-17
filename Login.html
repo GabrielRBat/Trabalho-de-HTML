@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000000;
+    background-image: url('https://www.cimentoitambe.com.br/wp-content/uploads/2018/08/Princess-Tower.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container {
+    width: 350px;
+    margin: 120px;
+    padding: 50px;
+    background-color: #fffdfd8a;
+    border-radius: 40px;
+}
+.login{
+    text-align: center;
+    font-size: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+button[name="entrar"] {
+    background-color: #32a4e6;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+button[name="registrar"] {
+    background-color: #ff9100;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+
+ <div class="container">
+    
+    <div class="login">
+        <h2>Login</h2>
+    </div>
+
+    <form>
+    
+        <input type="email" id="email" name="email" placeholder="Seu Email: " required>
+        <input type="password" id="password" name="password" placeholder="Sua Senha:" required>
+    
+        <button type="submit" name="entrar" onclick="location.href = 'index.html'">Entrar</button>
+        
+        
+        <center>
+            <p>Ainda não tem uma conta?</p>
+        </center>
+        
+      </form>
+    
+
+    <a href="./cadastro.html">
+        <button type="submit" name="registrar">Registre-se</button>
+    </a> 
+
+</div>
+</body>
+</html>
