@@ -28,11 +28,12 @@ header{
 } 
 form input{
     
-    display: inline-block;
+    display: flex;
     border-radius: 10px;
     position: relative;
-    left: 750px;
-    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 49px;
     width: 20%;
     border: none;
 
@@ -40,8 +41,9 @@ form input{
 form label{
     font-weight: bold;
     position: relative;
-    left: 750px;
-    bottom: 35px;
+    left: 35%;
+    transform: translateX(-50%);
+    bottom: 33px;
     color: black;
 }  
 ul{
@@ -71,7 +73,6 @@ footer{
 }
 .item1,.item2,.item3,.item4,.item5,.item6{
    display: flex;
-    
     min-width: 300px;
     text-align: center;
     margin: 5px 0px;
@@ -92,23 +93,41 @@ footer{
 }
 .subitem{
     display: flex;
-    background-color: #666;
+    background-color: #32a4e6;
     width: 50%;
     height: 100%;
     text-align: center;
     justify-content: left;
     padding-left: 25px;
+    font-size: large;
     
     
 }
 .subitem2{
     display: flex;
-    background-color: #666;
-    text-align: center;
-    justify-content: right;
+    background-color: #32a4e6;
+    flex-direction: column;
     width: 25%;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     padding-right: 25px;
+}
+.button {
+    display: flex;
+    font-size: 19px;
+    justify-content: center; 
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff9100;
+    position: relative;
+    left: 85%;
+    transform: translateX(-50%);
+    top: 100px;
+    width: 20%;
+    padding: 7px;
+    border-radius: 15px;
+    
 }
 
