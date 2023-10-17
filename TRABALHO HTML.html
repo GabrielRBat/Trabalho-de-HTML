@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./cssdohtml.css">
+    <meta charset="UTF-8">
+    <title>Anúncio de Apartamento em Curitiba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .property-details {
+            margin-top: 20px;
+        }
+        .property-description {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anúncio de Apartamento em Curitiba</h1>
+    </header>
+    <div class="container">
+        <div class="property-details">
+            <h2>Detalhes do Apartamento</h2>
+            <p><strong>Localização:</strong> Curitiba, PR</p>
+            <p><strong>Quartos:</strong> 2</p>
+            <p><strong>Banheiros:</strong> 2</p>
+            <p><strong>Área Total:</strong> 80 m²</p>
+            <p><strong>Preço:</strong> R$ 350,000</p>
+        </div>
+        <div class="property-description">
+            <h2>Descrição do Apartamento</h2>
+            <p>
+                Este lindo apartamento em Curitiba é a escolha perfeita para quem procura conforto e conveniência. Com 2 quartos espaçosos e 2 banheiros bem equipados, ele oferece um ambiente aconchegante para você e sua família. O apartamento também possui uma cozinha moderna, uma sala de estar ampla e uma bela vista da cidade.
+            </p>
+        </div>
+        <div class="contact-details">
+            <h2>Entre em contato</h2>
+
+     <form action="processar_formulario.php" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <input type="submit" value="Enviar">
+    
+        </div>
+    </div>
+</body>
+</html>
