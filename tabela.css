@@ -1,6 +1,6 @@
 
 body{
-    background: linear-gradient(to bottom, rgb(62, 184, 233), #0f4b83);
+    background-color: #0f4b83;
     background-attachment: fixed;
     padding: 0px;
     margin: 0px;
@@ -41,24 +41,38 @@ th {
     color: white;
 }
 ul{
-    justify-content: center;
-    padding-right: 40px;
+    justify-content: left;
+    padding-right: 30px;
 	display: flex;
     align-items: center;
 	margin: 0px;
-	height: 50px;
-	background-image: linear-gradient(to bottom, #0c51aade, #56afe200);
+	height: 51px;
+	background-image: linear-gradient(to top, #0f4b83, #32a4e6);
+    box-shadow: 3px 2px 2px black;
 }
-
+ul .login{
+    position: absolute;
+    right: 65px; 
+    top: 0px;
+}
+ul .imoveis{
+    position: absolute;
+    left: 124.5px; 
+    top: 0px;
+}
 li{
 	display: inline-block;
 	font-weight: bold;
     font-size: large;
-	color: #fff;
-	padding: 10px;
+	color: black;
+	padding: 15px;
+    border-radius: 15px;
 }
 
 li:hover{
-	background-image: linear-gradient(to bottom, #154072, #2a8cdb );
+	background-color: #32a4e6;
 	box-shadow: 3px 3px 10px rgba(50, 154, 240, 0.5);
+}
+header{
+    padding: 0px;
 }
