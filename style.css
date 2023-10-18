@@ -75,7 +75,8 @@ footer{
     grid-area: footer;
 }
 .item1,.item2,.item3,.item4,.item5,.item6{
-   display: flex;
+    background-image: url(https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg);
+    display: flex;
     min-width: 300px;
     text-align: center;
     margin: 5px 0px;
@@ -84,6 +85,9 @@ footer{
     box-shadow: 5px 5px 5px black;
     justify-content: right;
     height: 250px;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .item1{
     background-image: url(https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg);
@@ -96,7 +100,7 @@ footer{
 }
 .subitem{
     display: flex;
-    background-color: #32a4e6;
+    background-color:  white;
     width: 50%;
     height: 100%;
     text-align: center;
@@ -108,7 +112,7 @@ footer{
 }
 .subitem2{
     display: flex;
-    background-color: #32a4e6;
+    background-color: whi;
     flex-direction: column;
     width: 25%;
     border-bottom-right-radius: 15px;
