@@ -5,43 +5,26 @@
     <meta charset="UTF-8">
     <title>Anúncio de Apartamento em Curitiba</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        h1 {
-            font-size: 24px;
-        }
-        .property-details {
-            margin-top: 20px;
-        }
-        .property-description {
-            margin-top: 20px;
-        }
+    
+
     </style>
 </head>
 <body>
+    <haeder>
+        <nav>
+            <ul>
+                <a href="Login.html"><li class="login">Login</li></a>
+                <a href="./index.html"><li>Home</li></a>
+                <a href="tabela.html"><li class="imoveis">Imoveis</li></a>
+            </ul>
+        </nav>
+    </haeder>
+
     <header>
         <h1>Anúncio de Apartamento em Curitiba</h1>
     </header>
     <div class="container">
+        
         <div class="property-details">
             <h2>Detalhes do Apartamento</h2>
             <p><strong>Localização:</strong> Curitiba, PR</p>
@@ -61,17 +44,19 @@
 
      <form action="processar_formulario.php" method="post">
     <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" required><br><br>
+    <input class="nome" type="text" id="nome" name="nome" required><br><br>
 
     <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" name="telefone" required><br><br>
+    <input class="telefone" type="tel" id="telefone" name="telefone" required><br><br>
 
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
+    <input class="email" type="email" id="email" name="email" required><br><br>
 
-    <input type="submit" value="Enviar">
+    <input class="botao" type="submit" value="Enviar">
     
         </div>
+        <div class="imagem"><img src="https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg" alt=""></div>
     </div>
+    
 </body>
 </html>

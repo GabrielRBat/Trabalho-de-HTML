@@ -1,63 +1,87 @@
 body{
-    background: linear-gradient(to bottom, rgb(62, 184, 233), #0f4b83);
+    background-color: #0f4b83;
     background-attachment: fixed;
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 h1{
     text-align: center;
     color: #f0f0f0;
 }
 .container {
+    display: inline-block;
+    position: absolute;
     background-color: white;
     box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    border: solid 5px;
-    border-color: #5e5f5f;
+    border-radius: 15px;
     padding: 20px;
-    margin: auto;
+    justify-content: right;
+    flex-direction: column;
     max-width: 1500px;
+    height: 600px;
+    right: 175px;
+
 }
-table {
-    background-color: #ffffff;
-    border-collapse: collapse;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    border-radius: 10px;
-    overflow: hidden;
+img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 45px;
+    left: 350px;
+
 }
-th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 15px;
-}
-.escuro{
-    background-color: #f2f2f2;
-}
-th {
-    background-color: #32a4e6;
-    color: white;
-}
+
 ul{
-    justify-content: center;
-    padding-right: 40px;
-	display: flex;
-    align-items: center;
-	margin: 0px;
-	height: 50px;
-	background-image: linear-gradient(to bottom, #0c51aade, #56afe200);
+    margin: 0px;
+    background-image: linear-gradient(to top, #0f4b83, #32a4e6);
+    box-shadow: 3px 2px 2px black;
+}
+ul .login{
+    position: absolute;
+    right: 65px; 
+    top: 0px;
 }
 
 li{
-	display: inline-block;
-	font-weight: bold;
+    display: inline-block;
+    font-weight: bold;
     font-size: large;
-	color: #fff;
-	padding: 10px;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 li:hover{
-	background-image: linear-gradient(to bottom, #154072, #2a8cdb );
+	background-color: #32a4e6;
 	box-shadow: 3px 3px 10px rgba(50, 154, 240, 0.5);
+}
+header{
+    padding: 0px;
+}
+form input{
+    border-radius: 10px;
+    width: 20%;
+}
+.botao{
+    background-color: #ff9100;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid black 2px;
+    width: 100px;
+}
+html{
+    background-color: #0f4b83;
+}
+.nome{
+    position: absolute;
+    left: 90px;
+}
+.email{
+    position: absolute;
+    left: 90px;
+}
+.telefone{
+    position: absolute;
+    left: 90px;
 }
