@@ -43,7 +43,7 @@ form label{
     font-weight: bold;
     font-size: large;
     position: relative;
-    left: 35%;
+    left: 33%;
     transform: translateX(-50%);
     bottom: 37px;
     color: black;
@@ -81,7 +81,7 @@ footer{
     text-align: center;
     margin: 5px 0px;
     border-radius: 15px;
-    background-color: #32a4e6;
+    background-color: #fdfdfd;
     box-shadow: 5px 5px 5px black;
     justify-content: right;
     height: 250px;
