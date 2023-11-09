@@ -144,3 +144,41 @@ footer{
     padding: 10px 10px;
 }
 
+dialog{
+    display: none;
+    max-width: 70%;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.5);
+}
+dialog::backdrop{
+    background-color:rgba(0, 0, 0,0.8);
+}
+.imagemDialog{
+    width: 35%;
+    padding: 10px;
+    flex: 1;
+}
+.infoDialog{
+    width: 35%;
+    padding: 10px;
+    flex: 1;
+}
+.imagemDiv
+{
+    max-width: 100%;
+    height: auto;
+}
+.botaoInfo
+{
+    color: blue;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    justify-content: flex-end;
+}
+.botaoInfo:hover
+{
+    cursor: pointer;
+}
+
