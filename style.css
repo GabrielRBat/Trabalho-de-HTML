@@ -1,16 +1,19 @@
-body{
+body
+{
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     background-color: #0f4b83;
 }
-main{
+main
+{
     grid-area: main;
     padding: 15px;
     text-align: center;
     margin-top: 50px;
 }
-.container{
+.container
+{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 159px auto 100px;
@@ -21,13 +24,14 @@ main{
     "footer footer footer";
     text-align: center;
 }
-header{
+header
+{
     grid-area: header;
     padding: 0px;
   
 } 
-form input{
-    
+form input
+{
     display: flex;
     border-radius: 6px;
     position: relative;
@@ -37,9 +41,9 @@ form input{
     width: 20%;
     height: 20px;
     border: none;
-
 }
-form label{
+form label
+{
     font-weight: bold;
     font-size: large;
     position: relative;
@@ -48,17 +52,20 @@ form label{
     bottom: 37px;
     color: black;
 }  
-ul{
+ul
+{
     margin: 0px;
     background-image: linear-gradient(to top, #0f4b83, #32a4e6);
     box-shadow: 3px 2px 2px black;
 }
-ul .login{
+ul .login
+{
     position: absolute;
     right: 50px;
    
 }
-li{
+li
+{
     display: inline-block;
     font-weight: bold;
     font-size: large;
@@ -67,14 +74,17 @@ li{
     
 }
 
-li:hover{
+li:hover
+{
     background-color: #32a4e6; 
     border-radius: 15px;
 }
-footer{
+footer
+{
     grid-area: footer;
 }
-.item1,.item2,.item3,.item4,.item5,.item6{
+.item1,.item2,.item3,.item4,.item5,.item6
+{
     background-image: url(https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg);
     display: flex;
     min-width: 300px;
@@ -89,7 +99,8 @@ footer{
     background-repeat: no-repeat;
     background-position: left;
 }
-.item1{
+.item1
+{
     background-image: url(https://i.pinimg.com/736x/bb/79/5f/bb795f04c40be68c6bec3977c63f3cfd.jpg);
     background-size: 500px 300px;
     background-repeat: no-repeat;
@@ -98,7 +109,8 @@ footer{
     
 
 }
-.subitem{
+.subitem
+{
     display: flex;
     background-color:  white;
     width: 50%;
@@ -110,7 +122,8 @@ footer{
     
     
 }
-.subitem2{
+.subitem2
+{
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -120,7 +133,8 @@ footer{
     padding-right: 25px;
     min-width: 250px;
 }
-.button {
+.button 
+{
     display: flex;
     font-size: 19px;
     font-weight: bold;
@@ -140,45 +154,55 @@ footer{
     border: solid black 2px;
     
 }
-.button:hover{
+.button:hover
+{
     padding: 10px 10px;
 }
 
-dialog{
+dialog
+{
     display: none;
     max-width: 70%;
     border: 0px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0,0.5);
 }
-dialog::backdrop{
+dialog::backdrop
+{
     background-color:rgba(0, 0, 0,0.8);
 }
-.imagemDialog{
+.imagemDialog
+{
     width: 35%;
     padding: 10px;
     flex: 1;
 }
 .infoDialog{
+    display: flex;
     width: 35%;
     padding: 10px;
     flex: 1;
 }
 .imagemDiv
 {
+    border-radius: 15px;
     max-width: 100%;
     height: auto;
 }
 .botaoInfo
 {
-    color: blue;
+    color: red;
     padding: 5px;
     border: none;
     border-radius: 10px;
-    justify-content: flex-end;
+    height: 25px;
+    width: 20%;
 }
 .botaoInfo:hover
 {
     cursor: pointer;
 }
-
+.smallInfo
+{
+    color: #666;
+}
